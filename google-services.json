@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "974787378846",
+    "firebase_url": "https://sensorhigienico.firebaseio.com",
+    "project_id": "sensorhigienico",
+    "storage_bucket": "sensorhigienico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974787378846:android:833376fa10082a481d458f",
+        "android_client_info": {
+          "package_name": "com.example.sensoe16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974787378846-usn3048jij926s2bi23q1c4s01ube4og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sensoe16",
+            "certificate_hash": "906daa34954ab3929ad06cdfe9e24aecb0c37237"
+          }
+        },
+        {
+          "client_id": "974787378846-6b5f0pbagupt1jkv9684fkkbttfakq5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH0kk79aDgys21wvtsxdLytCYDCf9RUO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974787378846-6b5f0pbagupt1jkv9684fkkbttfakq5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974787378846:android:38d2befa69a52d491d458f",
+        "android_client_info": {
+          "package_name": "com.example.sensor021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974787378846-i1o61jjokbdiiui014357emg2dukg451.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sensor021",
+            "certificate_hash": "906daa34954ab3929ad06cdfe9e24aecb0c37237"
+          }
+        },
+        {
+          "client_id": "974787378846-6b5f0pbagupt1jkv9684fkkbttfakq5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH0kk79aDgys21wvtsxdLytCYDCf9RUO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974787378846-6b5f0pbagupt1jkv9684fkkbttfakq5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

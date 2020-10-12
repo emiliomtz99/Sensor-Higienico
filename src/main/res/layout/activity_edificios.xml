@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Edificios">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="575dp"
+            android:clipToPadding="false"
+            android:foregroundGravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:foregroundGravity="center_horizontal"
+                android:gravity="center|center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/PisosBtn"
+                        android:layout_width="205dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:background="#549aab"
+                        android:gravity="center|center_vertical"
+                        android:text="@string/edificios"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#2E2828" />
+
+                    <Button
+                        android:id="@+id/emergenciaButton"
+                        android:layout_width="194dp"
+                        android:layout_height="51dp"
+                        android:layout_gravity="top|left"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:background="#f1802d"
+                        android:gravity="center|center_horizontal"
+                        android:text="@string/emergencia"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="#3D3838"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnEdificioA"
+                        android:layout_width="match_parent"
+                        android:layout_height="103dp"
+                        android:background="#123740"
+                        android:foregroundGravity="center_vertical|center|center_horizontal"
+                        android:freezesText="false"
+                        android:gravity="center"
+                        android:text="@string/edificio_a"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/trabajadorA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="clip_horizontal|center|center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/TrabajadorPiso1"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btnEdificioB"
+                        android:layout_width="match_parent"
+                        android:layout_height="93dp"
+                        android:background="#145564"
+                        android:foregroundGravity="center_vertical|center|center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/edificio_b"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/trabajadorB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/TrabajadorPiso2"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btnEdificioC"
+                        android:layout_width="match_parent"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center"
+                        android:background="#123740"
+                        android:gravity="center"
+                        android:text="@string/edificio_c"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/trabajadorC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:foregroundGravity="center_vertical|center|center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/TrabajadorPiso3"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/btnEdificioD"
+                        android:layout_width="match_parent"
+                        android:layout_height="96dp"
+                        android:background="#145564"
+                        android:foregroundGravity="center_vertical|center|center_horizontal"
+                        android:gravity="center"
+                        android:text="@string/edificio_d"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="#FCFCFC" />
+
+                    <EditText
+                        android:id="@+id/trabajadorD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textPersonName"
+                        android:text="@string/TrabajadorPiso4"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/invisibleLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/btnTrabajadores"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cambiar_trabajadores" />
+
+                    <Button
+                        android:id="@+id/reportes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reportes" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="73dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="fitStart"
+            app:srcCompat="@mipmap/ic_flechita_round" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

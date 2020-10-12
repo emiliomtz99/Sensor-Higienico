@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sensor 0.2.1</string>
+    <string name="edificios">Building</string>
+    <string name="emergencia">  Emergency</string>
+    <string name="edificio_a">Building A</string>
+    <string name="TrabajadorPiso1">Juan</string>
+    <string name="edificio_b">Building B</string>
+    <string name="TrabajadorPiso2">José</string>
+    <string name="edificio_c">Building C</string>
+    <string name="TrabajadorPiso3">Julien</string>
+    <string name="edificio_d">Building D</string>
+    <string name="TrabajadorPiso4">Pedro</string>
+    <string name="cambiar_trabajadores">Change Workers</string>
+    <string name="aceptar">Accept</string>
+    <string name="ya_tengo_una_cuenta">I have an account</string>
+    <string name="registrarse">Register</string>
+    <string name="passwordhint">Password</string>
+    <string name="emailhint">Email</string>
+    <string name="emalhint">Email</string>
+    <string name="registro">Register</string>
+    <string name="pisos">Floors</string>
+    <string name="Piso1">Floors 1</string>
+    <string name="Piso2">Floors 2</string>
+    <string name="Piso3">Floors 3</string>
+    <string name="baño">Bathroom</string>
+    <string name="Baños">Bathroom</string>
+    <string name="Cambio">Change</string>
+    <string name="reportes">Inventory</string>
+    <string name="Inventario">Inventory</string>
+    <string name="anadir">Add:</string>
+    <string name="persona">Person</string>
+    <string name="turno">Shift</string>
+    <string name="semana">week</string>
+    <string name="mes">month</string>
+    <string name="tap_2_veces_para_ordenar">Tap 2 to order.</string>
+    <string name="jabon">soap</string>
+    <string name="papel">paper</string>
+    <string name="piso_1">Floor 1</string>
+    <string name="cabina_3">Stall 3</string>
+    <string name="cabina_1">Stall 1</string>
+
+</resources>

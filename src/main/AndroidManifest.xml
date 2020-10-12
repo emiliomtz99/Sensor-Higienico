@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sensor021">
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:label="Sensor"
+        android:roundIcon="@drawable/ic_bathroom"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Reportes"></activity>
+        <activity android:name=".BanoD" />
+        <activity android:name=".BanoC" />
+        <activity android:name=".BanoB" />
+        <activity android:name=".banoA2" />
+        <activity android:name=".banoA1" />
+        <activity android:name=".pisosD" />
+        <activity android:name=".pisosC" />
+        <activity android:name=".pisosB" />
+        <activity android:name=".pisosA" />
+        <activity android:name=".Emergencia" />
+        <activity android:name=".Registro" />
+        <activity android:name=".LogIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".trabajadores" />
+        <activity
+            android:name=".Edificios"
+            android:icon="@drawable/ic_bathroom"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SOUND" />
+</manifest>
